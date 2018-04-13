@@ -1,0 +1,163 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Helvetica;
+}
+
+.rental-list {
+	border: 2px solid #eee;
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+ul {
+  list-style: none;
+  line-height: 1.7rem;
+}
+
+.rental-list__item {
+	text-align: center;
+	font-size: 1.7rem;
+	padding: 2rem;
+	border-bottom: 2px solid #eee;
+	width: 100%;
+}
+
+.rental-list__item:hover {
+	background-color: #eee;
+	border-bottom: 2px solid #BEBEBE;
+	color: purple;
+}
+
+#craig:hover {
+	color: purple;
+}
+
+h1 {
+	font-size: 7.5rem;
+	font-family: Helvetica;
+	color: blue;
+	padding: 2rem;
+	margin-bottom: 4rem;
+}
+
+h2 {
+	font-size: 3.5rem;
+	font-family: Helvetica;
+}
+
+h3 {
+	color: blue;
+	padding: .5rem 0;
+	text-align: center;
+	font-size: 3.4rem;
+	background-color: #eee;
+	border-bottom: 2px solid #BEBEBE;
+	border-top: 2px solid #BEBEBE;
+}
+
+h4 {
+	font-size: 1.2rem;
+	color: gray;
+	margin: 5rem;
+}
+
+.apartment__block {
+	position: relative;
+	margin: 1.5rem;
+}
+
+.apartment__img {
+	position: absolute;
+	top: 5rem;;
+	left: 20%;
+	transfrom: translate(-50%, -50%);
+	float: left;
+}
+
+.apartment__img > img {
+	width: 37.5rem;
+	height: 25rem;
+}
+
+.apartment__details {
+	position: absolute;
+	top: 6rem;
+	left: 50%;
+	float: right;
+	transfrom: translate(-50%, -50%);
+	text-align: left;
+	padding: 2rem;
+	font-size: 1.5rem;
+}
+
+.apt-item {
+	padding: .5rem;
+	margin: 2rem;
+	border: 2px solid #BEBEBE;
+	border-radius: 3px;
+	background-color: #eee;
+}
+
+.deets {
+	padding: 1rem;
+}
+
+.home {
+	text-align: left;
+}
+
+.link,
+.link:visited {
+	font-size: 2rem;
+	border: 2px solid #eee;
+	background-color: #eee;
+	width: 10%;
+}
+
+.link:hover {
+	background-color: #BEBEBE;
+	border: 2px groove #BEBEBE;
+}
+
+.link:active {
+	border: 2px inset #BEBEBE;
+}
+
+.App {
+	text-align: center;
+	margin: 2rem;
+}
+
+.footer {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#greeting {
+	padding: 1.5rem;
+	font-family: 'Indie Flower', cursive;
+	font-size: 2rem;
+}
+
+#founders {
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.5rem;
+}
